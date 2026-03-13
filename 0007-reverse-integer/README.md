@@ -1,17 +1,22 @@
-# LeetCode Solutions
+# 7. Reverse Integer
 
-Solutions to LeetCode problems with explanations.
+## Problem
+Given a signed 32-bit integer `x`, return `x` with its digits reversed.
 
-Author: **Ishwar Chandra Tiwari**
+If reversing `x` causes the value to go outside the signed 32-bit integer range,
+return 0.
 
-Platform: CodeWithIshwar
+## Approach
+Extract digits one by one using modulo and build the reversed number.
 
-Languages:
+Handle overflow before updating the result.
 
-* Java
+## Complexity
 
-Goals:
+Time Complexity: O(log n)  
+Space Complexity: O(1)
 
-* Improve problem solving
-* Build strong DSA foundation
-* Share clean solutions for developers
+---
+
+CodeWithIshwar  
+Created by Ishwar Chandra Tiwari

@@ -1,5 +1,16 @@
 # 🚀 3546. Equal Sum Grid Partition I
 
+![LeetCode](https://img.shields.io/badge/LeetCode-3546-orange?style=for-the-badge&logo=leetcode)
+![Difficulty](https://img.shields.io/badge/Difficulty-Medium-yellow?style=for-the-badge)
+![Language](https://img.shields.io/badge/Language-Java-blue?style=for-the-badge&logo=java)
+![Status](https://img.shields.io/badge/Status-Solved-success?style=for-the-badge)
+
+---
+
+## 🧩 Problem
+
+# 🚀 3546. Equal Sum Grid Partition I
+
 ## 🧩 Problem
 
 Given an `m x n` grid of positive integers, determine if you can make **exactly one cut**:

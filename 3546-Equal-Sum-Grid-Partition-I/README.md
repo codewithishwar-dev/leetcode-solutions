@@ -9,10 +9,6 @@
 
 ## 🧩 Problem
 
-# 🚀 3546. Equal Sum Grid Partition I
-
-## 🧩 Problem
-
 Given an `m x n` grid of positive integers, determine if you can make **exactly one cut**:
 
 * Horizontal OR Vertical

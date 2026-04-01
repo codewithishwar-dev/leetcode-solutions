@@ -1,71 +1,131 @@
-# 🚀 LeetCode Solutions by CodeWithIshwar
+# 🤖 2751. Robot Collisions
 
-Welcome to my LeetCode journey 🚀  
-I solve problems daily and document them with clean code + explanations.
+## 📌 Problem Summary
 
----
+You are given `n` robots, each with:
 
-## 📊 Progress
+* A **unique position** on a number line
+* A **health value**
+* A **direction** of movement:
 
-- Total Problems Solved: XX
-- Easy: XX
-- Medium: XX
-- Hard: XX
+  * `'L'` → Left
+  * `'R'` → Right
 
----
-
-## 🧠 Topics Covered
-
-- Arrays
-- Strings
-- Stack
-- Queue
-- Graph
-- Dynamic Programming
-- Binary Search
+All robots move simultaneously at the same speed.
 
 ---
 
-## 📁 Structure
-dsa/
-├── array/
-├── stack/
-├── graph/
-└── dp/
+## ⚔️ Collision Rules
 
+When two robots collide:
 
----
-
-## ⭐ Featured Problems
-
-- 2751 - Robot Collisions (Hard)
-- 3567 - Minimum Absolute Difference (Medium)
+* The robot with **lower health is removed**
+* The robot with **higher health survives** and its health is **reduced by 1**
+* If both robots have **equal health**, both are removed
 
 ---
 
-## 🎯 Goal
+## 🎯 Objective
 
-- Crack FAANG-level interviews
-- Build strong DSA foundation
-- Share knowledge with developers
+Return the **health values of surviving robots** in the **original input order**.
 
----
-
-## 🔗 Connect
-
-- LinkedIn: https://linkedin.com/in/your-profile
-- GitHub: https://github.com/codewithishwar-dev
+If no robots survive, return an empty array.
 
 ---
 
-## 💡 Tip
+## 🧠 Approach
 
-Consistency beats talent.  
-1 problem daily → life changing in 6 months.
+### 🔑 Key Insight
+
+* Collisions only happen when:
+
+  * A robot moving **Right (`R`)**
+  * Meets a robot moving **Left (`L`)**
 
 ---
 
-## ⭐ Support
+### ⚙️ Algorithm
 
-If this repo helps you:
-👉 Star it ⭐
+1. **Combine robot data** into a structure:
+
+   * `(position, health, direction, original_index)`
+
+2. **Sort robots by position**
+
+3. Use a **stack**:
+
+   * Push robots moving `'R'`
+   * When encountering `'L'`, resolve collisions
+
+---
+
+### ⚔️ Collision Handling
+
+While stack is not empty and top robot is moving `'R'`:
+
+* If `R.health > L.health`
+  → R survives, `health--`, L dies
+
+* If `R.health < L.health`
+  → L survives, `health--`, remove R
+
+* If equal
+  → both die
+
+---
+
+4. **Store survivors** using original indices
+5. Return result in input order
+
+---
+
+## 📊 Complexity Analysis
+
+* **Time Complexity:** `O(n log n)` (sorting)
+* **Space Complexity:** `O(n)` (stack + result storage)
+
+---
+
+## 🧪 Example
+
+### Input
+
+```
+positions = [3,5,2,6]
+healths  = [10,10,15,12]
+directions = "RLRL"
+```
+
+### Output
+
+```
+[14]
+```
+
+---
+
+## 💡 Key Takeaways
+
+* Sorting ensures correct collision order
+* Stack helps simulate real-time collisions
+* Chain collisions must be handled carefully
+* Always track original indices
+
+---
+
+## 🔁 Similar Problems
+
+* Asteroid Collision (LeetCode 735)
+* Car Fleet
+
+---
+
+## 🏷️ Tags
+
+`Stack` `Simulation` `Sorting` `Hard`
+
+---
+
+## 👨‍💻 Author
+
+**CodeWithIshwar 🚀**

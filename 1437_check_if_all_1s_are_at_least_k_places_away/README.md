@@ -65,7 +65,7 @@ Array, Greedy, Sliding Window (Conceptual)
 
 ## 🔗 Related Problems
 
-* 605. Can Place Flowers
-* 485. Max Consecutive Ones
+ 605. Can Place Flowers
+ 485. Max Consecutive Ones
 
 ---

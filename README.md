@@ -1,4 +1,4 @@
-🚀 Code with Ishwar
+🚀 Code with Ishwar | Ishwar Chandra Tiwari
 <p align="center"> <b>Consistency. Patterns. Real Engineering Thinking.</b><br/> LeetCode | DSA | Interview Prep </p> <p align="center"> <img src="https://img.shields.io/badge/LeetCode-Active-orange?style=for-the-badge&logo=leetcode" /> <img src="https://img.shields.io/badge/DSA-Focused-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Daily%20Grind-success?style=for-the-badge" /> </p>
 👋 About Me
 

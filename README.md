@@ -1,122 +1,123 @@
-🚀 Code with Ishwar | Ishwar Chandra Tiwari
-<p align="center"> <b>Consistency. Patterns. Real Engineering Thinking.</b><br/> LeetCode | DSA | Interview Prep </p> <p align="center"> <img src="https://img.shields.io/badge/LeetCode-Active-orange?style=for-the-badge&logo=leetcode" /> <img src="https://img.shields.io/badge/DSA-Focused-blue?style=for-the-badge" /> <img src="https://img.shields.io/badge/Status-Daily%20Grind-success?style=for-the-badge" /> </p>
-👋 About Me
+# 🚀 LeetCode | Code With Ishwar| CodeWithIshwar | Ishwar Chandra Tiwari
 
-Hey, I’m Ishwar 👨‍💻
-Backend developer with 12+ years of experience, now sharpening my edge in:
+<p align="center">
+  <b>Solving Problems. Discovering Patterns. Building Intuition.</b>
+</p>
 
-Data Structures & Algorithms
-System Design Thinking
-Full Stack (MERN)
+<p align="center">
+  <img src="https://img.shields.io/badge/Language-Java-red?style=for-the-badge&logo=openjdk" />
+  <img src="https://img.shields.io/badge/Platform-LeetCode-orange?style=for-the-badge&logo=leetcode" />
+  <img src="https://img.shields.io/badge/Focus-Problem%20Solving-blue?style=for-the-badge" />
+</p>
 
-This repo is my public discipline system — not just solving problems, but mastering patterns.
+---
 
-🧠 Philosophy
+## 👋 Welcome
 
-"Don’t memorize solutions. Recognize patterns."
+This repository is my personal collection of LeetCode solutions written in **Java**.
 
-Most people:
-❌ Solve randomly
-❌ Forget quickly
+After more than a decade in software engineering, I've learned that strong developers aren't defined by how many problems they've solved, they're defined by how quickly they can recognize patterns and apply them to unfamiliar challenges.
 
-Here:
-✅ Pattern-based learning
-✅ Reusable approaches
-✅ Interview-oriented thinking
+This repository is my ongoing effort to sharpen that skill.
 
-📂 Repository Structure
-```
-leetcode-solutions/
-│
-├── easy/
-├── medium/
-├── hard/
-│
-├── patterns/
-│   ├── sliding-window/
-│   ├── two-pointers/
-│   ├── binary-search/
-│   ├── recursion/
-│   ├── dynamic-programming/
-│   └── graphs/
-│
-├── company-wise/
-│   ├── google/
-│   ├── amazon/
-│   ├── microsoft/
-│   └── meta/
-│
-└── README.md
-```
-🔥 Featured Patterns
-Pattern	Problems
-Sliding Window	Max Subarray, Longest Substring
-Two Pointers	Container With Most Water
-Binary Search	Search in Rotated Array
-DP	Knapsack, LIS
-Graphs	BFS / DFS / Topological Sort
-✨ Example Solution
-// Two Sum — Optimal Approach
-```
-function twoSum(nums, target) {
-    const map = new Map();
+---
 
-    for (let i = 0; i < nums.length; i++) {
-        const diff = target - nums[i];
+## 🧠 What You'll Find Here
 
-        if (map.has(diff)) {
-            return [map.get(diff), i];
-        }
+Each problem is organized into its own directory and contains:
 
-        map.set(nums[i], i);
-    }
-}
-```
-⏱ Time: O(n)
-📦 Space: O(n)
-```
-📈 Progress Tracker
-<p align="center"> <img src="https://github-readme-stats.vercel.app/api?username=your-username&show_icons=true&theme=tokyonight" /> </p>
-Level	Solved
-Easy	XX
-Medium	XX
-Hard	XX
-⚡ Daily Consistency Tracker
-Day 1  ✅
-Day 2  ✅
-Day 3  🔥
-Day 4  ✅
-...
-🏢 Company-wise Prep
-```
-Focused preparation for:
-```
-Google
-Amazon
-Microsoft
-Meta
-🛠 Tech Stack
-JavaScript (Primary)
-Node.js mindset
-Problem-solving patterns
-```
-🎯 2026 Goals
-```
-✅ 500+ LeetCode Problems
-✅ Strong DSA Pattern Recognition
-🔄 System Design Mastery
-🎯 Crack Product-Based Companies
-🤝 Connect with Me
-GitHub: https://github.com/your-username
-LinkedIn: your-linkedin-link
-⭐ Support
-```
-If you find this helpful:
-```
-👉 Star the repo
-👉 Follow the journey
-👉 Stay consistent
-```
-💡 Final Thought
+* 📖 Problem explanation
+* 💡 Thought process
+* ⚙️ Solution implementation
+* 📊 Time & Space Complexity
+* 🎯 Key takeaways
 
-"Consistency beats talent when talent doesn’t practice."
+```text id="2i6dxv"
+0001-two-sum/
+├── README.md
+└── Solution.java
+```
+
+The goal isn't just to store solutions.
+
+The goal is to document the reasoning behind them.
+
+---
+
+## 🎯 Core Principle
+
+> "Patterns scale. Memorization doesn't."
+
+When solving problems, I focus on identifying recurring techniques such as:
+
+* Arrays & Strings
+* Hashing
+* Two Pointers
+* Sliding Window
+* Binary Search
+* Stack & Queue
+* Linked Lists
+* Trees
+* Graphs
+* Heap / Priority Queue
+* Greedy Algorithms
+* Backtracking
+* Dynamic Programming
+
+Over time, these patterns become intuition.
+
+---
+
+## 📈 Progress
+
+| Difficulty | Solved |
+| ---------- | ------ |
+| Easy       | XX     |
+| Medium     | XX     |
+| Hard       | XX     |
+| Total      | XX     |
+
+---
+
+## 💻 Tech Stack
+
+* Java
+* LeetCode
+* Git & GitHub
+
+---
+
+## 🌱 Why This Repository Exists
+
+This repository serves as:
+
+* A public learning journal
+* A problem-solving knowledge base
+* A record of consistent practice
+* A reference for future review
+
+Every solution represents one small step toward becoming a better engineer.
+
+---
+
+## 🤝 Connect
+
+**Code With Ishwar**
+
+GitHub: https://github.com/codewithishwar-dev
+
+---
+
+## ⭐ If You Find This Helpful
+
+Consider starring the repository.
+
+If you're on your own DSA journey, feel free to explore, learn, and improve alongside me.
+
+---
+
+<div align="center">
+
+### "Every solved problem teaches more than a hundred bookmarked tutorials."
+
+</div>

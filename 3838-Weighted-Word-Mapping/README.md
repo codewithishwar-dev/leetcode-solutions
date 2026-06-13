@@ -139,5 +139,5 @@ This keeps the solution simple, clean, and optimal.
 
 ### Author
 
-**Ishwar Chandra Tiwari**
+**Ishwar Chandra Tiwari** | 
 **Code With Ishwar 🚀**

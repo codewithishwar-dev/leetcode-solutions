@@ -68,7 +68,7 @@ Over time, these patterns become intuition.
 
 ---
 
-## 📈 Progress
+## 📈 Progress - inprogress
 
 | Difficulty | Solved |
 | ---------- | ------ |

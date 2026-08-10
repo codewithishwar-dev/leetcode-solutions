@@ -14,7 +14,7 @@
 
 ## 👋 Welcome
 
-This repository is my personal collection of LeetCode solutions written in **Java**, **Python**..
+This repository is my personal collection of LeetCode solutions written in **Java**, **Python**.
 
 After more than a decade in software engineering, I've learned that strong developers aren't defined by how many problems they've solved, they're defined by how quickly they can recognize patterns and apply them to unfamiliar challenges.
 

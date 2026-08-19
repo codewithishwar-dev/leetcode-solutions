@@ -25,3 +25,5 @@ A subarray is a contiguous sequence of elements within an array.
 ```text
 nums = [3,9,2,1,7]
 k = 3
+```
+**CodeWithIshwar**

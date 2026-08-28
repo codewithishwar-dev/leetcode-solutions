@@ -82,6 +82,7 @@ Over time, these patterns become intuition.
 ## 💻 Tech Stack
 
 * Java
+* Python
 * LeetCode
 * Git & GitHub
 

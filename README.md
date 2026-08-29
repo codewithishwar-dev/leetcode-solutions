@@ -103,7 +103,7 @@ Every solution represents one small step toward becoming a better engineer.
 
 ## 🤝 Connect
 
-**Code With Ishwar**
+**Code With Ishwar**| Ishwar Chandra Tiwari
 
 GitHub: https://github.com/codewithishwar-dev
 

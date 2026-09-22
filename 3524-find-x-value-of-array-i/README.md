@@ -108,3 +108,5 @@ class Solution {
 Instead of generating every possible subarray, maintain the number of subarrays ending at the current position for each possible remainder.
 
 Because `k <= 5`, we only need a very small DP array.
+
+**CodeWithIshwar | Ishwar Chandra Tiwari**

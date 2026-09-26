@@ -106,4 +106,4 @@ class Solution {
 
 When a problem asks for the **smallest index** satisfying a condition, iterating from left to right often allows us to return immediately when the first valid index is found.
 
-**Ishwar Chandra Tiwari | CodeWithIshwar **
+**Ishwar Chandra Tiwari | CodeWithIshwar**

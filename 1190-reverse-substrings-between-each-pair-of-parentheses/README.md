@@ -166,3 +166,4 @@ Let `n` be the length of the input string.
 **Stack + String Reversal**
 
 This problem is a good example of using a stack to process **nested structures** such as parentheses.
+**Ishwar Chandra Tiwari**

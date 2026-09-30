@@ -318,3 +318,5 @@ This pattern is useful for problems where a grid path must satisfy a running con
 * Budget constraint
 * Inventory/resource tracking
 * Path-dependent state
+
+**Ishwar Chandra Tiwari | CodeWithIshwar**

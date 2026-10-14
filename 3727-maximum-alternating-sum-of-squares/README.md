@@ -63,6 +63,6 @@ For alternating-sum maximization problems, identify which positions contribute p
 
 ---
 
-**Maintained by:** CodeWithIshwar
+**Maintained by:** CodeWithIshwar | Ishwar Chandra Tiwari
 
 *Learn. Solve. Share. Repeat.*

@@ -43,5 +43,4 @@ mat[i][j] → rotated[j][n - 1 - i]
 
 ✍️ Author
 
-Ishwar Chandra Tiwari
-🚀 CodeWithIshwar
+**Ishwar Chandra Tiwari 🚀 CodeWithIshwar**

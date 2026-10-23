@@ -137,5 +137,5 @@ Instead of exploring every possible permutation, use the structure of rotations 
 
 ---
 
-**Author:** CodeWithIshwar  
+**Author:** CodeWithIshwar | Ishwar Chandra Tiwari
 **Repository:** [CodeWithIshwar-dev](https://github.com/CodeWithIshwar-dev)

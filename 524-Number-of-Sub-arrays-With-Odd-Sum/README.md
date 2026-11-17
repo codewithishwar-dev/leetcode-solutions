@@ -88,3 +88,5 @@ This reduces the solution from O(n²) to O(n).
 **LeetCode:** https://leetcode.com/problems/number-of-sub-arrays-with-odd-sum/
 
 **#LeetCode #Java #DSA #Arrays #PrefixSum #ProblemSolving #CodeWithIshwar**
+
+**CodeWithIshwar| Ishwar Chandra Tiwari**

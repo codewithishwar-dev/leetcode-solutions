@@ -108,3 +108,5 @@ For the DP array.
 ## Key Insight
 
 Instead of checking every possible previous jump position for each index, maintain a running count of reachable indices in the valid jump range using a sliding window. This reduces the solution from **O(n²)** to **O(n)**.
+
+**CodeWithIshwar | Ishwar Chandra Tiwari**
